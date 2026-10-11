@@ -1,0 +1,8 @@
+{
+  "name": "tinnten-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node hello.mjs", "test": "node --test test/*.test.mjs" }
+}
