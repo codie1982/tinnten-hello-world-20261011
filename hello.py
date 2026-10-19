@@ -3,6 +3,8 @@ import sys
 
 
 def greet(name="World"):
+    if name is None:
+        return "Hello, World!"
     return f"Hello, {name}!"
 
 

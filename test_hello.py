@@ -12,6 +12,9 @@ class GreetingTests(unittest.TestCase):
     def test_unicode_name(self):
         self.assertEqual(greet("Çağrı"), "Hello, Çağrı!")
 
+    def test_none_uses_default_greeting(self):
+        self.assertEqual(greet(None), "Hello, World!")
+
 
 if __name__ == "__main__":
     unittest.main()
